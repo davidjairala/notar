@@ -12,6 +12,11 @@ _notar_search() {
   ag $1 `notesdir`
 }
 
+
+#################
+# Functionality #
+#################
+
 # what's the notes dir
 notesdir() {
   echo "/Users/`whoami`/Dropbox/Notes/"
