@@ -9,7 +9,7 @@ notesdir() {
 }
 
 nnote() {
-  foldername=$(date +%Y_%m_%d)
+  foldername=$(date +%Y_%m)
   note_path=`notesdir`"$foldername"
 
   # create timestamped folder
