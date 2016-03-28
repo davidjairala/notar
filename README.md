@@ -12,6 +12,7 @@ your text editor there.
 * `nnote note_name`: create a teimstamped folder as above, but also open
 your text editor on the file `note_name.md`.
 * `notes`: open file editor on your notes folder.
+* `ntodo`: open `todo.md` in your notes folder.
 * `gnotes`: cd into notes folder.
 * `onotes`: open notes folder with finder.
 * `fnotes`: use `ag` to search for notes.

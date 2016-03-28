@@ -46,6 +46,11 @@ notes() {
   subl `notesdir`
 }
 
+ntodo() {
+  subl `notesdir`
+  subl `notesdir`todo.md
+}
+
 # cd into the notes dir
 gnotes() {
   cd `notesdir`
