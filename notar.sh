@@ -33,6 +33,7 @@ nnote() {
   if [ $# -eq 1 ]; then
     # argument was supplied, open file
     _notar_editor "$note_path"
+    touch "$note_path/$1.md"
     _notar_editor "$note_path/$1.md"
   else
     # no argument, just open folder
